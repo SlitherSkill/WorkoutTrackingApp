@@ -50,10 +50,15 @@ namespace WorkoutTrackingApp
                 buttonSettings
             };
 
-            foreach(Button button in buttons)
+            foreach (Button button in buttons)
                 button.BackColor = Color.FromArgb(23, 24, 29);
-            
+
             selectedButton.BackColor = Color.FromArgb(52, 54, 64);
+        }
+
+        private void buttonProgress_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
